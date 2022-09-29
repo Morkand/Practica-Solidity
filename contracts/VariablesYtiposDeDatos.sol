@@ -21,8 +21,15 @@
 pragma solidity >=0.7.0 <0.9.0;
 
 contract VariablesYtiposDeDatos{
-    constructor(){
-        
+
+    int cantidad;
+    uint cantidadSinSigno;
+    address direccion;
+    bool firmado;
+
+    constructor(bool estaFirmado){
+        direccion = msg.sender; //usuario que esta creando el cotrato
+        firmado = estaFirmado;
     }
 
 }
