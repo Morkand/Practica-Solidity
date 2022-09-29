@@ -1,0 +1,108 @@
+{
+    "contractName": "VariablesYtiposDeDatos",
+    "abi": [
+        {
+            "inputs": [],
+            "stateMutability": "nonpayable",
+            "type": "constructor"
+        }
+    ],
+    "metadata": "{\"compiler\":{\"version\":\"0.8.17+commit.8df45f5f\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"constructor\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"c:/Users/cpaez/Documents/Proyectos/Practica Solidity/contracts/VariablesYtiposDeDatos.sol\":\"VariablesYtiposDeDatos\"},\"evmVersion\":\"london\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":200},\"remappings\":[]},\"sources\":{\"c:/Users/cpaez/Documents/Proyectos/Practica Solidity/contracts/VariablesYtiposDeDatos.sol\":{\"keccak256\":\"0x7588452d3a8cb0c90df07950e669dd83546d362380d2e39b97cc36e0dd856e69\",\"license\":\"GPL-3.0\",\"urls\":[\"bzz-raw://01eaf1d00181c0d90c2d0a1c6cfa468ecf4241bb48000df9888e8676f7286780\",\"dweb:/ipfs/QmNNtuJXHRYaimc3aL8PR6GbVHowRxqn18GR8EtgD7TnpZ\"]}},\"version\":1}",
+    "bytecode": "6080604052348015600f57600080fd5b50603f80601d6000396000f3fe6080604052600080fdfea2646970667358221220f31d1a2c269dd1db1f6c05e704a73245453afda9f8c7af7a9fd116d2292a4acf64736f6c63430008110033",
+    "deployedBytecode": "6080604052600080fdfea2646970667358221220f31d1a2c269dd1db1f6c05e704a73245453afda9f8c7af7a9fd116d2292a4acf64736f6c63430008110033",
+    "sourceMap": "74:66:0:-:0;;;112:23;;;;;;;;;;74:66;;;;;;",
+    "deployedSourceMap": "74:66:0:-:0;;;;;",
+    "sourcePath": "c:/Users/cpaez/Documents/Proyectos/Practica Solidity/contracts/VariablesYtiposDeDatos.sol",
+    "compiler": {
+        "name": "solc",
+        "version": "0.8.17+commit.8df45f5f"
+    },
+    "ast": {
+        "absolutePath": "c:/Users/cpaez/Documents/Proyectos/Practica Solidity/contracts/VariablesYtiposDeDatos.sol",
+        "exportedSymbols": {
+            "VariablesYtiposDeDatos": [
+                6
+            ]
+        },
+        "id": 7,
+        "license": "GPL-3.0",
+        "nodeType": "SourceUnit",
+        "nodes": [
+            {
+                "id": 1,
+                "literals": [
+                    "solidity",
+                    ">=",
+                    "0.7",
+                    ".0",
+                    "<",
+                    "0.9",
+                    ".0"
+                ],
+                "nodeType": "PragmaDirective",
+                "src": "39:31:0"
+            },
+            {
+                "abstract": false,
+                "baseContracts": [],
+                "canonicalName": "VariablesYtiposDeDatos",
+                "contractDependencies": [],
+                "contractKind": "contract",
+                "fullyImplemented": true,
+                "id": 6,
+                "linearizedBaseContracts": [
+                    6
+                ],
+                "name": "VariablesYtiposDeDatos",
+                "nameLocation": "83:22:0",
+                "nodeType": "ContractDefinition",
+                "nodes": [
+                    {
+                        "body": {
+                            "id": 4,
+                            "nodeType": "Block",
+                            "src": "125:10:0",
+                            "statements": []
+                        },
+                        "id": 5,
+                        "implemented": true,
+                        "kind": "constructor",
+                        "modifiers": [],
+                        "name": "",
+                        "nameLocation": "-1:-1:-1",
+                        "nodeType": "FunctionDefinition",
+                        "parameters": {
+                            "id": 2,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "123:2:0"
+                        },
+                        "returnParameters": {
+                            "id": 3,
+                            "nodeType": "ParameterList",
+                            "parameters": [],
+                            "src": "125:0:0"
+                        },
+                        "scope": 6,
+                        "src": "112:23:0",
+                        "stateMutability": "nonpayable",
+                        "virtual": false,
+                        "visibility": "public"
+                    }
+                ],
+                "scope": 7,
+                "src": "74:66:0",
+                "usedErrors": []
+            }
+        ],
+        "src": "39:101:0"
+    },
+    "functionHashes": {},
+    "gasEstimates": {
+        "creation": {
+            "codeDepositCost": "12600",
+            "executionCost": "66",
+            "totalCost": "12666"
+        }
+    }
+}
